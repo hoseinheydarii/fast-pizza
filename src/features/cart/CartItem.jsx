@@ -1,4 +1,4 @@
-function CartItem({ item }) {
+const CartItem = ({ item }) => {
   const { pizzaId, name, quantity, totalPrice } = item;
 
   return (
@@ -11,6 +11,6 @@ function CartItem({ item }) {
       </div>
     </li>
   );
-}
+};
 
 export default CartItem;
